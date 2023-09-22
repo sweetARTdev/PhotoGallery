@@ -18,16 +18,22 @@ const photoList = [
         tags: ['Mountain background', 'Wallpaper']
     },
     {
-        id: 5,
+        id: 4,
         title: 'Volcano',
         img: 'https://images.unsplash.com/photo-1554232682-b9ef9c92f8de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHdhbGxwYXBlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
         tags: ['Volcano', 'Wallpaper']
     },
     {
-        id: 6,
+        id: 5,
         title: 'Green',
         img: 'https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2FsbHBhcGVyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
         tags: ['Green', 'Wallpaper']
+    },
+    {
+        id: 6,
+        title: 'Forest',
+        img: 'https://plus.unsplash.com/premium_photo-1668456460190-ec6eabb39cf8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdhbGxwYXBlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+        tags: ['Forest', 'Wallpaper']
     },
 ];
 export default photoList;
