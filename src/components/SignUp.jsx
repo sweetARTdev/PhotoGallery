@@ -134,7 +134,7 @@ const Signup = () => {
       <p style={{marginBottom: '10px'}}>Sign up for an account in just a few minutes.</p>
         <InputField
           type="email"
-          placeholder="Email"
+          placeholder="Your email as username"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -143,7 +143,7 @@ const Signup = () => {
         <PasswordFieldContainer>
         <InputField
           type={showPassword ? "true ": "password"}
-          placeholder="Password"
+          placeholder="Password should be minimum 8 digits"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
